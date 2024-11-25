@@ -10,6 +10,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // Just a normal comment
     emailjs
       .sendForm(
         "service_2mu5xtl",
