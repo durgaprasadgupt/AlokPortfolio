@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 
-// comment Ahead Added
+// comment
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
